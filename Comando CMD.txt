@@ -1,0 +1,67 @@
+PS D:\Escritorio\Node_2670689\holaMundo> npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (holamundo)
+version: (1.0.0)
+description: Hola
+entry point: (index.js)
+test command:
+git repository:
+keywords: Hola
+author: Alexander Ospina
+license: (ISC)
+About to write to D:\Escritorio\Node_2670689\holaMundo\package.json:
+
+{
+  "name": "holamundo",
+  "version": "1.0.0",
+  "description": "Hola",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Hola"
+  ],
+  "author": "Alexander Ospina",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+PS D:\Escritorio\Node_2670689\holaMundo> cd..
+PS D:\Escritorio\Node_2670689> cd Server
+PS D:\Escritorio\Node_2670689\Server> npm init -y
+Wrote to D:\Escritorio\Node_2670689\Server\package.json:
+
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+PS D:\Escritorio\Node_2670689\Server> npm i express
+
+added 62 packages, and audited 63 packages in 6s
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS D:\Escritorio\Node_2670689\Server>
